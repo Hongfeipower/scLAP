@@ -1,0 +1,21 @@
+name: sclap
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - numpy>=1.24
+  - pandas>=1.5
+  - scipy>=1.10
+  - scanpy>=1.9
+  - scikit-learn>=1.2
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - umap-learn>=0.5
+  - pip
+
+# R workflows additionally require R >= 4.2 plus Seurat, Harmony, ArchR,
+# edgeR, Matrix, data.table, GenomicRanges, TFBSTools, motifmatchr,
+# JASPAR2022 and BSgenome.Hsapiens.UCSC.hg38.
