@@ -1,0 +1,52 @@
+{
+  "label": "val",
+  "n": 3234,
+  "translation": {
+    "mse": 0.5587053298950195,
+    "mae": 0.23573747277259827,
+    "r2": 0.4412951997880027,
+    "cell_pearson_mean": 0.6650468223096415,
+    "cell_pearson_median": 0.6606526970863342,
+    "gene_pearson_mean": 0.22860155195332482,
+    "gene_pearson_median": 0.19777803868055344
+  },
+  "retrieval": {
+    "ATAC_to_RNA": {
+      "direction": "ATAC_to_RNA",
+      "n": 3234,
+      "top1": 0.042053184910327765,
+      "top5": 0.14007421150278293,
+      "top10": 0.2189239332096475,
+      "top50": 0.49196042053184913,
+      "median_rank": 52.0,
+      "mean_rank": 142.59585652442794,
+      "mean_foscttm": 0.043797048105297845,
+      "median_foscttm": 0.015774822146613052,
+      "top1_unique_ref": 1663,
+      "top1_max_ref_hits": 11,
+      "top1_effective_ref": 1375.4491745640908,
+      "top1_hit_gini": 0.6518056258315998
+    },
+    "RNA_to_ATAC": {
+      "direction": "RNA_to_ATAC",
+      "n": 3234,
+      "top1": 0.04452690166975881,
+      "top5": 0.1357452071737786,
+      "top10": 0.20871985157699444,
+      "top50": 0.4969078540507112,
+      "median_rank": 51.0,
+      "mean_rank": 141.00556586270872,
+      "mean_foscttm": 0.043305154921963726,
+      "median_foscttm": 0.01546551190844417,
+      "top1_unique_ref": 1639,
+      "top1_max_ref_hits": 10,
+      "top1_effective_ref": 1356.6396565386322,
+      "top1_hit_gini": 0.6577897027141661
+    },
+    "MNN": {
+      "mnn_pairs": 955,
+      "mnn_precision_true_pair": 0.06701570680628273,
+      "mnn_recall_true_pair": 0.019789734075448363
+    }
+  }
+}

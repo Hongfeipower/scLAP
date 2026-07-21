@@ -1,0 +1,160 @@
+{
+  "best_epoch": 6,
+  "best_score": 0.4606350676785365,
+  "train": {
+    "label": "train",
+    "n": 15095,
+    "translation": {
+      "mse": 0.5494120717048645,
+      "mae": 0.23245349526405334,
+      "r2": 0.4505879066305337,
+      "cell_pearson_mean": 0.6723934300868233,
+      "cell_pearson_median": 0.6662207245826721,
+      "gene_pearson_mean": 0.2466280841063708,
+      "gene_pearson_median": 0.22324231266975403
+    },
+    "retrieval": {
+      "ATAC_to_RNA": {
+        "direction": "ATAC_to_RNA",
+        "n": 15095,
+        "top1": 0.10751904604173568,
+        "top5": 0.2539913878767804,
+        "top10": 0.34223252732692944,
+        "top50": 0.6005299768135144,
+        "median_rank": 29.0,
+        "mean_rank": 121.85525008280888,
+        "mean_foscttm": 0.008006840471896705,
+        "median_foscttm": 0.001855041738439115,
+        "top1_unique_ref": 7216,
+        "top1_max_ref_hits": 25,
+        "top1_effective_ref": 5656.970287088939,
+        "top1_hit_gini": 0.6940239123730123
+      },
+      "RNA_to_ATAC": {
+        "direction": "RNA_to_ATAC",
+        "n": 15095,
+        "top1": 0.10202053660152369,
+        "top5": 0.25048029148724743,
+        "top10": 0.3417687976151043,
+        "top50": 0.5996025173898641,
+        "median_rank": 28.0,
+        "mean_rank": 121.1262669758198,
+        "mean_foscttm": 0.007958544254393785,
+        "median_foscttm": 0.001788790247780575,
+        "top1_unique_ref": 6894,
+        "top1_max_ref_hits": 28,
+        "top1_effective_ref": 5324.616809624204,
+        "top1_hit_gini": 0.7134219151512653
+      },
+      "MNN": {
+        "mnn_pairs": 3658,
+        "mnn_precision_true_pair": 0.2378348824494259,
+        "mnn_recall_true_pair": 0.05763497846969195
+      }
+    }
+  },
+  "val": {
+    "label": "val",
+    "n": 3234,
+    "translation": {
+      "mse": 0.5587053298950195,
+      "mae": 0.23573747277259827,
+      "r2": 0.4412951997880027,
+      "cell_pearson_mean": 0.6650468223096415,
+      "cell_pearson_median": 0.6606526970863342,
+      "gene_pearson_mean": 0.22860155195332482,
+      "gene_pearson_median": 0.19777803868055344
+    },
+    "retrieval": {
+      "ATAC_to_RNA": {
+        "direction": "ATAC_to_RNA",
+        "n": 3234,
+        "top1": 0.042053184910327765,
+        "top5": 0.14007421150278293,
+        "top10": 0.2189239332096475,
+        "top50": 0.49196042053184913,
+        "median_rank": 52.0,
+        "mean_rank": 142.59585652442794,
+        "mean_foscttm": 0.043797048105297845,
+        "median_foscttm": 0.015774822146613052,
+        "top1_unique_ref": 1663,
+        "top1_max_ref_hits": 11,
+        "top1_effective_ref": 1375.4491745640908,
+        "top1_hit_gini": 0.6518056258315998
+      },
+      "RNA_to_ATAC": {
+        "direction": "RNA_to_ATAC",
+        "n": 3234,
+        "top1": 0.04452690166975881,
+        "top5": 0.1357452071737786,
+        "top10": 0.20871985157699444,
+        "top50": 0.4969078540507112,
+        "median_rank": 51.0,
+        "mean_rank": 141.00556586270872,
+        "mean_foscttm": 0.043305154921963726,
+        "median_foscttm": 0.01546551190844417,
+        "top1_unique_ref": 1639,
+        "top1_max_ref_hits": 10,
+        "top1_effective_ref": 1356.6396565386322,
+        "top1_hit_gini": 0.6577897027141661
+      },
+      "MNN": {
+        "mnn_pairs": 955,
+        "mnn_precision_true_pair": 0.06701570680628273,
+        "mnn_recall_true_pair": 0.019789734075448363
+      }
+    }
+  },
+  "test": {
+    "label": "test",
+    "n": 3235,
+    "translation": {
+      "mse": 0.5609389543533325,
+      "mae": 0.2353532314300537,
+      "r2": 0.43906113770306987,
+      "cell_pearson_mean": 0.6631257438585968,
+      "cell_pearson_median": 0.6583333015441895,
+      "gene_pearson_mean": 0.2401506619877182,
+      "gene_pearson_median": 0.21211149543523788
+    },
+    "retrieval": {
+      "ATAC_to_RNA": {
+        "direction": "ATAC_to_RNA",
+        "n": 3235,
+        "top1": 0.0482225656877898,
+        "top5": 0.1418856259659969,
+        "top10": 0.21483771251931993,
+        "top50": 0.5013910355486862,
+        "median_rank": 50.0,
+        "mean_rank": 140.3771251931994,
+        "mean_foscttm": 0.04309744130896703,
+        "median_foscttm": 0.015151515151515152,
+        "top1_unique_ref": 1697,
+        "top1_max_ref_hits": 11,
+        "top1_effective_ref": 1422.7316576022502,
+        "top1_hit_gini": 0.6397372249521631
+      },
+      "RNA_to_ATAC": {
+        "direction": "RNA_to_ATAC",
+        "n": 3235,
+        "top1": 0.03987635239567233,
+        "top5": 0.13415765069551777,
+        "top10": 0.2160741885625966,
+        "top50": 0.5004636785162287,
+        "median_rank": 50.0,
+        "mean_rank": 141.5823802163833,
+        "mean_foscttm": 0.04347012375274685,
+        "median_foscttm": 0.015151515151515152,
+        "top1_unique_ref": 1638,
+        "top1_max_ref_hits": 10,
+        "top1_effective_ref": 1354.2389582535043,
+        "top1_hit_gini": 0.6588915192936609
+      },
+      "MNN": {
+        "mnn_pairs": 1007,
+        "mnn_precision_true_pair": 0.06852035749751738,
+        "mnn_recall_true_pair": 0.02132921174652241
+      }
+    }
+  }
+}
