@@ -1,7 +1,7 @@
 # scLAP
  a liver-adapted contrastive shared-latent framework for pseudo-pairing single-cell transcriptomes and chromatin accessibility profiles
 
- ![Graphical Abstract](https://github.com/Hongfeipower/HTN/blob/main/Graphical%20Abstract.png)
+ ![Graphical Abstract](https://github.com/Hongfeipower/scLAP/blob/main/fig1.tif)
 
  
 ```text
