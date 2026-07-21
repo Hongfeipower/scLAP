@@ -34,3 +34,7 @@ conda activate sclap
 
 Run a short end-to-end demonstration:
 
+```bash
+python train.py --epochs 5 --batch-size 256
+python evaluate.py --split test
+```
